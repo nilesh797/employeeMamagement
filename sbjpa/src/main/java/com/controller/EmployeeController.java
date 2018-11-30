@@ -18,6 +18,7 @@ public class EmployeeController {
 	public String test() {
 		Employee e=new Employee("anil", "9876543562", "anil123@gmail.com");
 	edao.insert(e);	
+	System.out.println("data saved ");
 		return "hello";
 	}
 	
